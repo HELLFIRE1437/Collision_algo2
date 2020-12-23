@@ -1,5 +1,5 @@
 var fixedRect, movingRect;
-var g1 , g2 ;
+var g1 ;
 
 function setup() {
   createCanvas(1200,800);
@@ -10,7 +10,6 @@ function setup() {
   movingRect.shapeColor = "green";
   movingRect.debug = true;
   g1 = createSprite(100,100,50,50);
-  g2 = createSprite(200,100,50,50);
 }
 
 function draw() {
